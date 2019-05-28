@@ -1,0 +1,25 @@
+{
+  "name": "webpack-typescripter-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Centeva/TypeScripterPlugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Centeva/TypeScripterPlugin/issues"
+  },
+  "homepage": "https://github.com/Centeva/TypeScripterPlugin#readme",
+  "devDependencies": {
+    "rollup": "^1.12.4",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^3.4.5"
+  }
+}
